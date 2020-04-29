@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtLb"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="116dp"
+        android:ems="10"
+        android:hint="Pound"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtG"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txtG"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:hint="Gallon"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txtC"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Celsius"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <EditText
+        android:id="@+id/txtF"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Fahrenheit"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <EditText
+        android:id="@+id/txtM"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="184dp"
+        android:ems="10"
+        android:hint="Mile"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtLb"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/txtK"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="184dp"
+        android:ems="10"
+        android:hint="Kilometer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtKg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtKg"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="116dp"
+        android:ems="10"
+        android:hint="Kilogram"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtL"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtL"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:hint="Liter"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
